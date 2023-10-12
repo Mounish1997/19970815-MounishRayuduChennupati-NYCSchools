@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:weightSum="3"
+    >
+    <TextView
+        android:id="@+id/DBNTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+
+        android:fontFamily="@font/alef"
+
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="DBN"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/DBN"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_marginStart="15dp"
+        android:text=":"
+        android:fontFamily="@font/alef"
+
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/DBNName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:layout_marginStart="20dp"
+        android:text="schoolname"
+        android:fontFamily="@font/alef"
+
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        android:textSize="15sp" />
+</LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:weightSum="3"
+    >
+    <TextView
+        android:id="@+id/schoolNameTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+
+        android:fontFamily="@font/alef"
+android:textAllCaps="false"
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="School Name"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/goldgramsDot"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_marginStart="15dp"
+        android:text=":"
+        android:fontFamily="@font/alef"
+
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/schoolName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:layout_marginStart="20dp"
+        android:text="schoolname"
+        android:fontFamily="@font/alef"
+
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        android:textSize="15sp" />
+</LinearLayout>
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:weightSum="3"
+    >
+    <TextView
+        android:id="@+id/num_of_sat_test_takersTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+
+        android:fontFamily="@font/alef"
+
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Num of SAT Test Takers"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/num_of_sat_test_takers"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_marginStart="15dp"
+        android:text=":"
+        android:fontFamily="@font/alef"
+
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/num_of_sat_test_takersName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:layout_marginStart="20dp"
+        android:text="Num of SAT Test Takers"
+        android:fontFamily="@font/alef"
+
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        android:textSize="15sp" />
+</LinearLayout> <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:weightSum="3"
+    >
+    <TextView
+        android:id="@+id/sat_critical_reading_avg_scorTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+
+        android:fontFamily="@font/alef"
+
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="SAT Critical Reading Avg. Score
+"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/sat_critical_reading_avg_scor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_marginStart="15dp"
+        android:text=":"
+        android:fontFamily="@font/alef"
+
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/sat_critical_reading_avg_scorName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:layout_marginStart="20dp"
+        android:text="Num of SAT Test Takers"
+        android:fontFamily="@font/alef"
+
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        android:textSize="15sp" />
+</LinearLayout><LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:weightSum="3"
+    >
+    <TextView
+        android:id="@+id/sat_math_avg_scoreTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+
+        android:fontFamily="@font/alef"
+
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="SAT Math Avg. Score
+"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/sat_math_avg_score"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_marginStart="15dp"
+        android:text=":"
+        android:fontFamily="@font/alef"
+
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/sat_math_avg_scoreName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:layout_marginStart="20dp"
+        android:text="SAT Math Avg. Score"
+        android:fontFamily="@font/alef"
+
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        android:textSize="15sp" />
+</LinearLayout><LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:weightSum="3"
+    >
+    <TextView
+        android:id="@+id/sat_writing_avg_scoreTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+
+        android:fontFamily="@font/alef"
+
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="SAT Writing Avg. Score
+"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/sat_writing_avg_score"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_marginStart="15dp"
+        android:text=":"
+        android:fontFamily="@font/alef"
+
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/sat_writing_avg_scoreName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:layout_marginStart="20dp"
+        android:text="SAT Math Avg. Score"
+        android:fontFamily="@font/alef"
+
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        android:textSize="15sp" />
+</LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>
